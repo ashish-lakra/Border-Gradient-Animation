@@ -1,0 +1,37 @@
+    body{
+    color: antiquewhite;
+    background-color: #020005;
+    padding:50px;
+}
+.text{
+    text-align: center;
+    padding:100px 30px ;
+}
+.card{
+    width: 200px ;
+    height: 25s0px;
+    background-color:#151515;
+    border: 5px  solid;
+    border-image:
+        linear-gradient(
+            360deg,
+            #eeff02,
+            #ff0410,
+            #02fff2
+        )1;
+    animation: rotate 
+    2.3s 
+    ease-in
+    infinite ;
+}
+@keyframes rotate{
+    50%{
+        border-image:
+        linear-gradient(  
+            360deg,
+            #ff512f,
+            #dd2476,
+            #1c64ff
+        )1;
+    }
+}

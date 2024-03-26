@@ -1,4 +1,4 @@
-*Border Gradient Animation*
+#Border Gradient Animation
 
 ---
 
